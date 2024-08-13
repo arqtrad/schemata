@@ -1,10 +1,568 @@
-- refid:
+###################################################################
+############################ CSL Types ############################ {{{1
+###################################################################
+
+- refid : csl-types
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  TT: true
   name:
-    pt-BR:
-      title :
-      source:
-      description: # SN
-  TT: # false, true
+    en: "CSL types"
+    description: # SN
+
+- refid: article-journal
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "journal article"
+    pt:
+      title : "artigo em periódico"
   relation:
-    - type: # isPartOf (BT), relatedTo (RT), isReplacedBy (USE)
-      relids: # refid from related term
+    - type  : isPartOf # isPartOf (BT), relatedTo (RT), isReplacedBy (USE)
+      relids: csl-types
+
+- refid: article-magazine
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "magazine article"
+    pt:
+      title : "artigo em revista"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: article-newspaper
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "newspaper article"
+    pt:
+      title : "artigo em jornal"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: bill
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "bill"
+    pt:
+      title : "estatuto"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: book
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "book"
+    pt:
+      title : "livro"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: broadcast
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "broadcast"
+    pt:
+      title : "transmissão audiovisual"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: chapter
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "book chapter"
+    pt:
+      title : "seção de livro"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: classic
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "classic"
+    pt:
+      title : "clássico"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: collection
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "collection"
+    pt:
+      title : "fundo"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: dataset
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "dataset"
+    pt:
+      title : "dataset"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: document
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  name:
+    en:
+      title : "document"
+    pt:
+      title : "documento"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+###################################################################
+######## Countries and states ######### Países e estados ########## {{{1
+###################################################################
+
+- refid: AO                                                       # {{{2
+  source: ISO3166-1
+  name:
+    pt:
+      title : "Angola"
+
+- refid: AO-BGO
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Bengo"
+
+- refid: AO-BGU
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Benguela"
+
+- refid: AO-BIE
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Bié"
+
+- refid: AO-CAB
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Cabinda"
+
+- refid: AO-CCU
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Cuando Cubango"
+
+- refid: AO-CNO
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Cuanza–Norte"
+    en:
+      title : "North Cuanza"
+
+- refid: AO-CUS
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Cuanza-Sul"
+    en:
+      title : "South Cuanza"
+
+- refid: AO-CNN
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Cunene"
+
+- refid: AO-HUA
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Huambo"
+
+- refid: AO-HUI
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Huíla"
+
+- refid: AO-LUA
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Luanda"
+
+- refid: AO-LNO
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Lunda–Norte"
+
+- refid: AO-LSU
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Lunda–Sul"
+
+- refid: AO-MAL
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Malange"
+
+- refid: AO-MOX
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Moxico"
+
+- refid: AO-NAM
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Namibe"
+
+- refid: AO-UIG
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Uíge"
+
+- refid: AO-ZAI
+  source: ISO3166-2:AO
+  name:
+    pt:
+      title : "Zaire"
+
+- refid: BR                                                       # {{{2
+  source: ISO3166-1
+  name:
+    pt:
+      title : "Brasil"
+    pt-PT:
+      title : "Brasil"
+    en:
+      title : "Brazil"
+
+- refid: BR-AC
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Acre"
+
+- refid: BR-AL
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Alagoas"
+
+- refid: BR-AM
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Amazonas"
+
+- refid: BR-AP
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Amapá"
+
+- refid: BR-BA
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Bahia"
+
+- refid: BR-CE
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Ceará"
+
+- refid: BR-DF
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Distrito Federal"
+
+- refid: BR-ES
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Espírito Santo"
+
+- refid: BR-GO
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Goiás"
+
+- refid: BR-MA
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Maranhão"
+
+- refid: BR-MG
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Minas Gerais"
+
+- refid: BR-MT
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Mato Grosso"
+
+- refid: BR-MS
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Mato Grosso do Sul"
+
+- refid: BR-PA
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Pará"
+
+- refid: BR-PB
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Paraíba"
+
+- refid: BR-PE
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Pernambuco"
+
+- refid: BR-PI
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Piauí"
+
+- refid: BR-RJ
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Rio de Janeiro"
+
+- refid: BR-RN
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Rio Grande do Norte"
+
+- refid: BR-RS
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Rio Grande do Sul"
+
+- refid: BR-RO
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Rondônia"
+
+- refid: BR-RR
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Roraima"
+
+- refid: BR-SC
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Santa Catarina"
+
+- refid: BR-SE
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Sergipe"
+
+- refid: BR-SP
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "São Paulo"
+
+- refid: BR-TO
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Tocantins"
+
+- refid: CV                                                       # {{{2
+  source: ISO3166-1
+  name:
+    pt:
+      title : "Cabo Verde"
+    en:
+      title : "Cape Verde"
+
+- refid: CV-B
+  source: ISO3166-2:CV
+  name:
+    pt:
+      title : "Barlavento"
+
+- refid: CV-S
+  source: ISO3166-2:CV
+  name:
+    pt:
+      title : "Sotavento"
+
+- refid: PT                                                       # {{{2
+  source: ISO3166-1
+  name:
+    pt:
+      title : "Portugal"
+
+- refid: PT-01
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Aveiro"
+
+- refid: PT-02
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Beja"
+
+- refid: PT-03
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Braga"
+
+- refid: PT-04
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Bragança"
+
+- refid: PT-05
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Castelo Branco"
+
+- refid: PT-06
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Coimbra"
+
+- refid: PT-07
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Évora"
+
+- refid: PT-08
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Faro"
+
+- refid: PT-09
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Guarda"
+
+- refid: PT-10
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Leiria"
+
+- refid: PT-11
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Lisboa"
+    en:
+      title : "Lisbon"
+
+- refid: PT-12
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Portalegre"
+
+- refid: PT-13
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Porto"
+
+- refid: PT-14
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Santarém"
+
+- refid: PT-15
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Setúbal"
+
+- refid: PT-16
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Viana do Castelo"
+
+- refid: PT-17
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Vila Real"
+
+- refid: PT-18
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Viseu"
+
+- refid: PT-30
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Madeira"
+
+- refid: PT-20
+  source: ISO3166-2:PT
+  name:
+    pt:
+      title : "Açores"
+# vim: foldmethod=marker
