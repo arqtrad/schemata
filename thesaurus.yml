@@ -1,0 +1,10 @@
+- refid:
+  name:
+    pt-BR:
+      title :
+      source:
+      description: # SN
+  TT: # false, true
+  relation:
+    - type: # isPartOf (BT), relatedTo (RT), isReplacedBy (USE)
+      relids: # refid from related term
