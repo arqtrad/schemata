@@ -694,9 +694,6 @@
   name:
     pt:
       title : "Acre"
-  relation:
-    - type  : isPartOf
-      relids: BR
 
 - refid: BR-AL
   source: ISO3166-2:BR
