@@ -518,9 +518,6 @@
   name:
     pt:
       title : "Bengo"
-  relation:
-    - type  : isPartOf
-      relids: AO
 
 - refid: AO-BGU
   source: ISO3166-2:AO
