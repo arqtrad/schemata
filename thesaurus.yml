@@ -1,16 +1,34 @@
 ###################################################################
+###### Vocabulário controlado ####### Controlled vocabulary ####### {{{1
+###################################################################
+# A = Tomaz d'Assumpção         # N = Normas técnicas             #
+# B = Sousa Viterbo             # O = Curl (Oxford)               #
+# C = Silva & Calado            # P = Pereira da Costa            #
+# D = Viollet-le-Duc            # Q = Wikidata                    #
+# E = De la Plaza Escudero      # R = Assis Rodrigues             #
+# F = Azevedo Fortes            # S = Segurado                    #
+# G = Afonso Ávila (Glossário)  # T = Tolhausen                   #
+# H = Harris                    # U                               #
+# I                             # V = TechNetEmpire eViterbo      #
+# J = J. Serrão Pimentel        # W
+# K = Kamayurá                  # X = Alexandre Speltz            #
+# L = Corona & Lemos            # Y = Sylvio de Vasconcellos      #
+# M = Mascarenhas               # Z = Raczynski                   #
+###################################################################
+
+###################################################################
 ############################ CSL Types ############################ {{{1
 ###################################################################
 
 - refid : csl-types
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   TT: true
   name:
     en: "CSL types"
     description: # SN
 
 - refid: article-journal
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "journal article"
@@ -21,7 +39,7 @@
       relids: csl-types
 
 - refid: article-magazine
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "magazine article"
@@ -32,7 +50,7 @@
       relids: csl-types
 
 - refid: article-newspaper
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "newspaper article"
@@ -43,7 +61,7 @@
       relids: csl-types
 
 - refid: bill
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "bill"
@@ -54,7 +72,7 @@
       relids: csl-types
 
 - refid: book
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "book"
@@ -65,7 +83,7 @@
       relids: csl-types
 
 - refid: broadcast
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "broadcast"
@@ -76,7 +94,7 @@
       relids: csl-types
 
 - refid: chapter
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "book chapter"
@@ -87,7 +105,7 @@
       relids: csl-types
 
 - refid: classic
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "classic"
@@ -98,7 +116,7 @@
       relids: csl-types
 
 - refid: collection
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "collection"
@@ -109,7 +127,7 @@
       relids: csl-types
 
 - refid: dataset
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "dataset"
@@ -120,12 +138,364 @@
       relids: csl-types
 
 - refid: document
-  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#items.properties.type
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
       title : "document"
     pt:
       title : "documento"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: entry
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "entry"
+    pt:
+      title : "verbete"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: entry-dictionary
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "entry-dictionary"
+    pt:
+      title : "verbete de dicionário"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: entry-encyclopedia
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "entry-encyclopedia"
+    pt:
+      title : "verbete de enciclopédia"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: event
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "event"
+    pt:
+      title : "evento"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: figure
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "figure"
+    pt:
+      title : "figura"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: graphic
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "graphic"
+    pt:
+      title : "gráfico"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: hearing
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "hearing"
+    pt:
+      title : "audiência"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: interview
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "interview"
+    pt:
+      title : "entrevista"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: legal_case
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "legal_case"
+    pt:
+      title : "caso"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: manuscript
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "manuscript"
+    pt:
+      title : "manuscrito"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: map
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "map"
+    pt:
+      title : "mapa"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: motion_picture
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "motion_picture"
+    pt:
+      title : "filme"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: musical_score
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "musical score"
+    pt:
+      title : "partitura musical"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: pamphlet
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "pamphlet"
+    pt:
+      title : "panfleto"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: paper-conference
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "conference paper"
+    pt:
+      title : "trabalho em evento"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: patent
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "patent"
+    pt:
+      title : "patente"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: performance
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "performance"
+    pt:
+      title : "apresentação"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: periodical
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "periodical"
+    pt:
+      title : "periódico"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: personal_communication
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "personal communication"
+    pt:
+      title : "comunicação pessoal"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: post
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "post"
+    pt:
+      title : "postagem"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: post-weblog
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "post-weblog"
+    pt:
+      title : "postagem de blog"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: regulation
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "regulation"
+    pt:
+      title : "norma"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: report
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "report"
+    pt:
+      title : "relatório"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: review
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "review"
+    pt:
+      title : "resenha"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: review-book
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "review-book"
+    pt:
+      title : "resenha de livro"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: software
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "software"
+    pt:
+      title : "programa de computador"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: song
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "song"
+    pt:
+      title : "canção"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: speech
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "speech"
+    pt:
+      title : "conferência"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: standard
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "standard"
+    pt:
+      title : "norma técnica"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: thesis
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "thesis"
+    pt:
+      title : "tese"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: treaty
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "treaty"
+    pt:
+      title : "tratado"
+  relation:
+    - type  : isPartOf
+      relids: csl-types
+
+- refid: webpage
+  source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
+  name:
+    en:
+      title : "webpage"
+    pt:
+      title : "página web"
   relation:
     - type  : isPartOf
       relids: csl-types
@@ -142,33 +512,51 @@
 
 - refid: AO-BGO
   source: ISO3166-2:AO
+  relation:
+    - type  : isPartOf
+      relids: AO
   name:
     pt:
       title : "Bengo"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-BGU
   source: ISO3166-2:AO
   name:
     pt:
       title : "Benguela"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-BIE
   source: ISO3166-2:AO
   name:
     pt:
       title : "Bié"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-CAB
   source: ISO3166-2:AO
   name:
     pt:
       title : "Cabinda"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-CCU
   source: ISO3166-2:AO
   name:
     pt:
       title : "Cuando Cubango"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-CNO
   source: ISO3166-2:AO
@@ -177,6 +565,9 @@
       title : "Cuanza–Norte"
     en:
       title : "North Cuanza"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-CUS
   source: ISO3166-2:AO
@@ -185,72 +576,108 @@
       title : "Cuanza-Sul"
     en:
       title : "South Cuanza"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-CNN
   source: ISO3166-2:AO
   name:
     pt:
       title : "Cunene"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-HUA
   source: ISO3166-2:AO
   name:
     pt:
       title : "Huambo"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-HUI
   source: ISO3166-2:AO
   name:
     pt:
       title : "Huíla"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-LUA
   source: ISO3166-2:AO
   name:
     pt:
       title : "Luanda"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-LNO
   source: ISO3166-2:AO
   name:
     pt:
       title : "Lunda–Norte"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-LSU
   source: ISO3166-2:AO
   name:
     pt:
       title : "Lunda–Sul"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-MAL
   source: ISO3166-2:AO
   name:
     pt:
       title : "Malange"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-MOX
   source: ISO3166-2:AO
   name:
     pt:
       title : "Moxico"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-NAM
   source: ISO3166-2:AO
   name:
     pt:
       title : "Namibe"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-UIG
   source: ISO3166-2:AO
   name:
     pt:
       title : "Uíge"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: AO-ZAI
   source: ISO3166-2:AO
   name:
     pt:
       title : "Zaire"
+  relation:
+    - type  : isPartOf
+      relids: AO
 
 - refid: BR                                                       # {{{2
   source: ISO3166-1
@@ -264,159 +691,242 @@
 
 - refid: BR-AC
   source: ISO3166-2:BR
+  relation:
+    - type  : isPartOf
+      relids: BR
   name:
     pt:
       title : "Acre"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-AL
   source: ISO3166-2:BR
   name:
     pt:
       title : "Alagoas"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-AM
   source: ISO3166-2:BR
   name:
     pt:
       title : "Amazonas"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-AP
   source: ISO3166-2:BR
   name:
     pt:
       title : "Amapá"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-BA
   source: ISO3166-2:BR
   name:
     pt:
       title : "Bahia"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-CE
   source: ISO3166-2:BR
   name:
     pt:
       title : "Ceará"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-DF
   source: ISO3166-2:BR
   name:
     pt:
       title : "Distrito Federal"
+    en:
+      title : "Federal District"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-ES
   source: ISO3166-2:BR
   name:
     pt:
       title : "Espírito Santo"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-GO
   source: ISO3166-2:BR
   name:
     pt:
       title : "Goiás"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-MA
   source: ISO3166-2:BR
   name:
     pt:
       title : "Maranhão"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-MG
   source: ISO3166-2:BR
   name:
     pt:
       title : "Minas Gerais"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-MT
   source: ISO3166-2:BR
   name:
     pt:
       title : "Mato Grosso"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-MS
   source: ISO3166-2:BR
   name:
     pt:
       title : "Mato Grosso do Sul"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-PA
   source: ISO3166-2:BR
   name:
     pt:
       title : "Pará"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-PB
   source: ISO3166-2:BR
   name:
     pt:
       title : "Paraíba"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-PE
   source: ISO3166-2:BR
   name:
     pt:
       title : "Pernambuco"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-PI
   source: ISO3166-2:BR
   name:
     pt:
       title : "Piauí"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-RJ
   source: ISO3166-2:BR
   name:
     pt:
       title : "Rio de Janeiro"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-RN
   source: ISO3166-2:BR
   name:
     pt:
       title : "Rio Grande do Norte"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-RS
   source: ISO3166-2:BR
   name:
     pt:
       title : "Rio Grande do Sul"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-RO
   source: ISO3166-2:BR
   name:
     pt:
       title : "Rondônia"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-RR
   source: ISO3166-2:BR
   name:
     pt:
       title : "Roraima"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-SC
   source: ISO3166-2:BR
   name:
     pt:
       title : "Santa Catarina"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-SE
   source: ISO3166-2:BR
   name:
     pt:
       title : "Sergipe"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-SP
   source: ISO3166-2:BR
   name:
     pt:
       title : "São Paulo"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: BR-TO
   source: ISO3166-2:BR
   name:
     pt:
       title : "Tocantins"
+  relation:
+    - type  : isPartOf
+      relids: BR
 
 - refid: CV                                                       # {{{2
   source: ISO3166-1
@@ -428,12 +938,18 @@
 
 - refid: CV-B
   source: ISO3166-2:CV
+  relation:
+    - type  : isPartOf
+      relids: CV
   name:
     pt:
       title : "Barlavento"
 
 - refid: CV-S
   source: ISO3166-2:CV
+  relation:
+    - type  : isPartOf
+      relids: CV
   name:
     pt:
       title : "Sotavento"
@@ -446,66 +962,99 @@
 
 - refid: PT-01
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Aveiro"
 
 - refid: PT-02
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Beja"
 
 - refid: PT-03
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Braga"
 
 - refid: PT-04
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Bragança"
 
 - refid: PT-05
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Castelo Branco"
 
 - refid: PT-06
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Coimbra"
 
 - refid: PT-07
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Évora"
 
 - refid: PT-08
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Faro"
 
 - refid: PT-09
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Guarda"
 
 - refid: PT-10
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Leiria"
 
 - refid: PT-11
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Lisboa"
@@ -514,54 +1063,81 @@
 
 - refid: PT-12
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Portalegre"
 
 - refid: PT-13
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Porto"
 
 - refid: PT-14
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Santarém"
 
 - refid: PT-15
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Setúbal"
 
 - refid: PT-16
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Viana do Castelo"
 
 - refid: PT-17
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Vila Real"
 
 - refid: PT-18
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Viseu"
 
 - refid: PT-30
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Madeira"
 
 - refid: PT-20
   source: ISO3166-2:PT
+  relation:
+    - type  : isPartOf
+      relids: PT
   name:
     pt:
       title : "Açores"
