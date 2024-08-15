@@ -20,14 +20,17 @@
 ############################ CSL Types ############################ {{{1
 ###################################################################
 
-- refid : csl-types
+csl-types:
+  refid : csl-types
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   TT: true
   name:
-    en: "CSL types"
-    description: # SN
+    en:
+      title: "CSL types"
+      description: "Work types used in the CSL specification" # SN
 
-- refid: article-journal
+article-journal:
+  refid : article-journal
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -38,7 +41,8 @@
     - type  : isPartOf # isPartOf (BT), relatedTo (RT), isReplacedBy (USE)
       relids: csl-types
 
-- refid: article-magazine
+article-magazine:
+  refid : article-magazine
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -49,7 +53,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: article-newspaper
+article-newspaper:
+  refid : article-newspaper
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -60,7 +65,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: bill
+bill:
+  refid : bill
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -71,7 +77,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: book
+book:
+  refid : book
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -82,7 +89,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: broadcast
+broadcast:
+  refid : broadcast
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -93,7 +101,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: chapter
+chapter:
+  refid : chapter
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -104,7 +113,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: classic
+classic:
+  refid : classic
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -115,7 +125,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: collection
+collection:
+  refid : collection
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -126,7 +137,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: dataset
+dataset:
+  refid : dataset
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -137,7 +149,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: document
+document:
+  refid : document
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -148,7 +161,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: entry
+entry:
+  refid : entry
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -159,7 +173,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: entry-dictionary
+entry-dictionary:
+  refid : entry-dictionary
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -170,7 +185,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: entry-encyclopedia
+entry-encyclopedia:
+  refid : entry-encyclopedia
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -181,7 +197,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: event
+event:
+  refid : event
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -192,7 +209,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: figure
+figure:
+  refid : figure
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -203,7 +221,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: graphic
+graphic:
+  refid : graphic
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -214,7 +233,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: hearing
+hearing:
+  refid : hearing
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -225,7 +245,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: interview
+interview:
+  refid : interview
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -236,7 +257,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: legal_case
+legal_case:
+  refid : legal_case
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -247,7 +269,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: manuscript
+manuscript:
+  refid : manuscript
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -258,7 +281,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: map
+map:
+  refid : map
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -269,7 +293,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: motion_picture
+motion_picture:
+  refid : motion_picture
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -280,7 +305,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: musical_score
+musical_score:
+  refid : musical_score
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -291,7 +317,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: pamphlet
+pamphlet:
+  refid : pamphlet
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -302,7 +329,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: paper-conference
+paper-conference:
+  refid : paper-conference
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -313,7 +341,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: patent
+patent:
+  refid : patent
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -324,7 +353,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: performance
+performance:
+  refid : performance
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -335,7 +365,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: periodical
+periodical:
+  refid : periodical
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -346,7 +377,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: personal_communication
+personal_communication:
+  refid : personal_communication
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -357,7 +389,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: post
+post:
+  refid : post
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -368,7 +401,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: post-weblog
+post-weblog:
+  refid : post-weblog
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -379,7 +413,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: regulation
+regulation:
+  refid : regulation
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -390,7 +425,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: report
+report:
+  refid : report
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -401,7 +437,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: review
+review:
+  refid : review
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -412,7 +449,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: review-book
+review-book:
+  refid : review-book
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -423,7 +461,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: software
+software:
+  refid : software
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -434,7 +473,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: song
+song:
+  refid : song
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -445,7 +485,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: speech
+speech:
+  refid : speech
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -456,7 +497,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: standard
+standard:
+  refid : standard
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -467,7 +509,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: thesis
+thesis:
+  refid : thesis
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -478,7 +521,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: treaty
+treaty:
+  refid : treaty
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -489,7 +533,8 @@
     - type  : isPartOf
       relids: csl-types
 
-- refid: webpage
+webpage:
+  refid : webpage
   source: https://resource.citationstyles.org/schema/v1.0/input/json/csl-data.json#
   name:
     en:
@@ -504,13 +549,16 @@
 ######## Countries and states ######### Países e estados ########## {{{1
 ###################################################################
 
-- refid: AO                                                       # {{{2
+# {{{2 Angola
+AO:
+  refid : AO
   source: ISO3166-1
   name:
     pt:
       title : "Angola"
 
-- refid: AO-BGO
+AO-BGO:
+  refid : AO-BGO
   source: ISO3166-2:AO
   relation:
     - type  : isPartOf
@@ -519,7 +567,8 @@
     pt:
       title : "Bengo"
 
-- refid: AO-BGU
+AO-BGU:
+  refid : AO-BGU
   source: ISO3166-2:AO
   name:
     pt:
@@ -528,7 +577,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-BIE
+AO-BIE:
+  refid : AO-BIE
   source: ISO3166-2:AO
   name:
     pt:
@@ -537,7 +587,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-CAB
+AO-CAB:
+  refid : AO-CAB
   source: ISO3166-2:AO
   name:
     pt:
@@ -546,7 +597,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-CCU
+AO-CCU:
+  refid : AO-CCU
   source: ISO3166-2:AO
   name:
     pt:
@@ -555,7 +607,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-CNO
+AO-CNO:
+  refid : AO-CNO
   source: ISO3166-2:AO
   name:
     pt:
@@ -566,7 +619,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-CUS
+AO-CUS:
+  refid : AO-CUS
   source: ISO3166-2:AO
   name:
     pt:
@@ -577,7 +631,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-CNN
+AO-CNN:
+  refid : AO-CNN
   source: ISO3166-2:AO
   name:
     pt:
@@ -586,7 +641,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-HUA
+AO-HUA:
+  refid : AO-HUA
   source: ISO3166-2:AO
   name:
     pt:
@@ -595,7 +651,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-HUI
+AO-HUI:
+  refid : AO-HUI
   source: ISO3166-2:AO
   name:
     pt:
@@ -604,7 +661,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-LUA
+AO-LUA:
+  refid : AO-LUA
   source: ISO3166-2:AO
   name:
     pt:
@@ -613,7 +671,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-LNO
+AO-LNO:
+  refid : AO-LNO
   source: ISO3166-2:AO
   name:
     pt:
@@ -622,7 +681,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-LSU
+AO-LSU:
+  refid : AO-LSU
   source: ISO3166-2:AO
   name:
     pt:
@@ -631,7 +691,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-MAL
+AO-MAL:
+  refid : AO-MAL
   source: ISO3166-2:AO
   name:
     pt:
@@ -640,7 +701,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-MOX
+AO-MOX:
+  refid : AO-MOX
   source: ISO3166-2:AO
   name:
     pt:
@@ -649,7 +711,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-NAM
+AO-NAM:
+  refid : AO-NAM
   source: ISO3166-2:AO
   name:
     pt:
@@ -658,7 +721,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-UIG
+AO-UIG:
+  refid : AO-UIG
   source: ISO3166-2:AO
   name:
     pt:
@@ -667,7 +731,8 @@
     - type  : isPartOf
       relids: AO
 
-- refid: AO-ZAI
+AO-ZAI:
+  refid : AO-ZAI
   source: ISO3166-2:AO
   name:
     pt:
@@ -676,7 +741,9 @@
     - type  : isPartOf
       relids: AO
 
-- refid: BR                                                       # {{{2
+# {{{2 Brasil
+BR:
+  refid : BR
   source: ISO3166-1
   name:
     pt:
@@ -686,7 +753,8 @@
     en:
       title : "Brazil"
 
-- refid: BR-AC
+BR-AC:
+  refid : BR-AC
   source: ISO3166-2:BR
   relation:
     - type  : isPartOf
@@ -695,7 +763,8 @@
     pt:
       title : "Acre"
 
-- refid: BR-AL
+BR-AL:
+  refid : BR-AL
   source: ISO3166-2:BR
   name:
     pt:
@@ -704,7 +773,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-AM
+BR-AM:
+  refid : BR-AM
   source: ISO3166-2:BR
   name:
     pt:
@@ -713,7 +783,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-AP
+BR-AP:
+  refid : BR-AP
   source: ISO3166-2:BR
   name:
     pt:
@@ -722,7 +793,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-BA
+BR-BA:
+  refid : BR-BA
   source: ISO3166-2:BR
   name:
     pt:
@@ -731,7 +803,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-CE
+BR-CE:
+  refid : BR-CE
   source: ISO3166-2:BR
   name:
     pt:
@@ -740,7 +813,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-DF
+BR-DF:
+  refid : BR-DF
   source: ISO3166-2:BR
   name:
     pt:
@@ -751,7 +825,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-ES
+BR-ES:
+  refid : BR-ES
   source: ISO3166-2:BR
   name:
     pt:
@@ -760,7 +835,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-GO
+BR-GO:
+  refid : BR-GO
   source: ISO3166-2:BR
   name:
     pt:
@@ -769,7 +845,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-MA
+BR-MA:
+  refid : BR-MA
   source: ISO3166-2:BR
   name:
     pt:
@@ -778,7 +855,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-MG
+BR-MG:
+  refid : BR-MG
   source: ISO3166-2:BR
   name:
     pt:
@@ -787,7 +865,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-MT
+BR-MT:
+  refid : BR-MT
   source: ISO3166-2:BR
   name:
     pt:
@@ -796,7 +875,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-MS
+BR-MS:
+  refid : BR-MS
   source: ISO3166-2:BR
   name:
     pt:
@@ -805,7 +885,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-PA
+BR-PA:
+  refid : BR-PA
   source: ISO3166-2:BR
   name:
     pt:
@@ -814,7 +895,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-PB
+BR-PB:
+  refid : BR-PB
   source: ISO3166-2:BR
   name:
     pt:
@@ -823,7 +905,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-PE
+BR-PE:
+  refid : BR-PE
   source: ISO3166-2:BR
   name:
     pt:
@@ -832,7 +915,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-PI
+BR-PI:
+  refid : BR-PI
   source: ISO3166-2:BR
   name:
     pt:
@@ -841,7 +925,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-RJ
+BR-RJ:
+  refid : BR-RJ
   source: ISO3166-2:BR
   name:
     pt:
@@ -850,7 +935,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-RN
+BR-RN:
+  refid : BR-RN
   source: ISO3166-2:BR
   name:
     pt:
@@ -859,7 +945,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-RS
+BR-RS:
+  refid : BR-RS
   source: ISO3166-2:BR
   name:
     pt:
@@ -868,7 +955,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-RO
+BR-RO:
+  refid : BR-RO
   source: ISO3166-2:BR
   name:
     pt:
@@ -877,7 +965,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-RR
+BR-RR:
+  refid : BR-RR
   source: ISO3166-2:BR
   name:
     pt:
@@ -886,7 +975,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-SC
+BR-SC:
+  refid : BR-SC
   source: ISO3166-2:BR
   name:
     pt:
@@ -895,7 +985,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-SE
+BR-SE:
+  refid : BR-SE
   source: ISO3166-2:BR
   name:
     pt:
@@ -904,7 +995,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-SP
+BR-SP:
+  refid : BR-SP
   source: ISO3166-2:BR
   name:
     pt:
@@ -913,7 +1005,8 @@
     - type  : isPartOf
       relids: BR
 
-- refid: BR-TO
+BR-TO:
+  refid : BR-TO
   source: ISO3166-2:BR
   name:
     pt:
@@ -922,7 +1015,9 @@
     - type  : isPartOf
       relids: BR
 
-- refid: CV                                                       # {{{2
+# {{{2 Cabo Verde
+CV:
+  refid : CV
   source: ISO3166-1
   name:
     pt:
@@ -930,7 +1025,8 @@
     en:
       title : "Cape Verde"
 
-- refid: CV-B
+CV-B:
+  refid : CV-B
   source: ISO3166-2:CV
   relation:
     - type  : isPartOf
@@ -939,7 +1035,8 @@
     pt:
       title : "Barlavento"
 
-- refid: CV-S
+CV-S:
+  refid : CV-S
   source: ISO3166-2:CV
   relation:
     - type  : isPartOf
@@ -948,13 +1045,16 @@
     pt:
       title : "Sotavento"
 
-- refid: PT                                                       # {{{2
+# {{{2 Portugal
+PT:
+  refid : PT
   source: ISO3166-1
   name:
     pt:
       title : "Portugal"
 
-- refid: PT-01
+PT-01:
+  refid : PT-01
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -963,7 +1063,8 @@
     pt:
       title : "Aveiro"
 
-- refid: PT-02
+PT-02:
+  refid : PT-02
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -972,7 +1073,8 @@
     pt:
       title : "Beja"
 
-- refid: PT-03
+PT-03:
+  refid : PT-03
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -981,7 +1083,8 @@
     pt:
       title : "Braga"
 
-- refid: PT-04
+PT-04:
+  refid : PT-04
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -990,7 +1093,8 @@
     pt:
       title : "Bragança"
 
-- refid: PT-05
+PT-05:
+  refid : PT-05
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -999,7 +1103,8 @@
     pt:
       title : "Castelo Branco"
 
-- refid: PT-06
+PT-06:
+  refid : PT-06
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1008,7 +1113,8 @@
     pt:
       title : "Coimbra"
 
-- refid: PT-07
+PT-07:
+  refid : PT-07
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1017,7 +1123,8 @@
     pt:
       title : "Évora"
 
-- refid: PT-08
+PT-08:
+  refid : PT-08
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1026,7 +1133,8 @@
     pt:
       title : "Faro"
 
-- refid: PT-09
+PT-09:
+  refid : PT-09
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1035,7 +1143,8 @@
     pt:
       title : "Guarda"
 
-- refid: PT-10
+PT-10:
+  refid : PT-10
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1044,7 +1153,8 @@
     pt:
       title : "Leiria"
 
-- refid: PT-11
+PT-11:
+  refid : PT-11
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1055,7 +1165,8 @@
     en:
       title : "Lisbon"
 
-- refid: PT-12
+PT-12:
+  refid : PT-12
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1064,7 +1175,8 @@
     pt:
       title : "Portalegre"
 
-- refid: PT-13
+PT-13:
+  refid : PT-13
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1073,7 +1185,8 @@
     pt:
       title : "Porto"
 
-- refid: PT-14
+PT-14:
+  refid : PT-14
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1082,7 +1195,8 @@
     pt:
       title : "Santarém"
 
-- refid: PT-15
+PT-15:
+  refid : PT-15
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1091,7 +1205,8 @@
     pt:
       title : "Setúbal"
 
-- refid: PT-16
+PT-16:
+  refid : PT-16
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1100,7 +1215,8 @@
     pt:
       title : "Viana do Castelo"
 
-- refid: PT-17
+PT-17:
+  refid : PT-17
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1109,7 +1225,8 @@
     pt:
       title : "Vila Real"
 
-- refid: PT-18
+PT-18:
+  refid : PT-18
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1118,7 +1235,8 @@
     pt:
       title : "Viseu"
 
-- refid: PT-30
+PT-30:
+  refid : PT-30
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
@@ -1127,7 +1245,8 @@
     pt:
       title : "Madeira"
 
-- refid: PT-20
+PT-20:
+  refid : PT-20
   source: ISO3166-2:PT
   relation:
     - type  : isPartOf
