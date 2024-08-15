@@ -327,6 +327,9 @@ pt-BR:
   # custom fields
   author_reg_sg              : "Responsável"
   author_reg_pl              : "Responsáveis"
+  timeline_label             : "Cronologia"
+  date_added                 : "Inclusão:"
+  iconography_label          : "Iconografia"
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
