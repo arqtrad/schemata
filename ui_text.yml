@@ -269,7 +269,8 @@ pt: &DEFAULT_PT
   loading_label              : "A carregar..."
   search_label_text          :
   search_algolia_no_results  :
-  iconography                : "Iconografia"
+  iconography_label          : "Iconografia"
+  dwgs_label                 : "Desenhos"
   page_not_found             : "Página não encontrada."
 pt-PT:
   <<: *DEFAULT_PT
@@ -330,6 +331,7 @@ pt-BR:
   timeline_label             : "Cronologia"
   date_added                 : "Inclusão:"
   iconography_label          : "Iconografia"
+  dwgs_label                 : "Desenhos"
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
