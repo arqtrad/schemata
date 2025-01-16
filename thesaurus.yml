@@ -925,6 +925,16 @@ BR-PI:
     - type  : isPartOf
       relids: BR
 
+BR-PR:
+  refid : BR-PR
+  source: ISO3166-2:BR
+  name:
+    pt:
+      title : "Paraná"
+  relation:
+    - type  : isPartOf
+      relids: BR
+
 BR-RJ:
   refid : BR-RJ
   source: ISO3166-2:BR
