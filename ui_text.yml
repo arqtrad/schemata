@@ -51,6 +51,8 @@ en: &DEFAULT_EN
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
   page_not_found             : "Page not found."
+  redraw                     : "Redrafted by"
+  scale_label                : "Escala"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -272,6 +274,8 @@ pt: &DEFAULT_PT
   iconography_label          : "Iconografia"
   dwgs_label                 : "Desenhos"
   page_not_found             : "Página não encontrada."
+  redraw                     : "Redesenho por"
+  scale_label                : "Escala"
 pt-PT:
   <<: *DEFAULT_PT
 # Brazilian Portuguese
@@ -332,6 +336,8 @@ pt-BR:
   date_added                 : "Inclusão:"
   iconography_label          : "Iconografia"
   dwgs_label                 : "Desenhos"
+  redraw                     : "Redesenho por"
+  scale_label                : "Escala"
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
