@@ -53,7 +53,7 @@ en: &DEFAULT_EN
   page_not_found             : "Page not found."
   redraw                     : "Redrafted by"
   scale_label                : "Escala"
-  coming_soon                : "Coming soon..."
+  coming_soon                : "Coming soon"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -277,7 +277,7 @@ pt: &DEFAULT_PT
   page_not_found             : "Página não encontrada."
   redraw                     : "Redesenho por"
   scale_label                : "Escala"
-  coming_soon                : "Breve..."
+  coming_soon                : "Breve"
 pt-PT:
   <<: *DEFAULT_PT
 # Brazilian Portuguese
@@ -340,7 +340,7 @@ pt-BR:
   dwgs_label                 : "Desenhos"
   redraw                     : "Redesenho por"
   scale_label                : "Escala"
-  coming_soon                : "Em breve..."
+  coming_soon                : "Em breve"
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
