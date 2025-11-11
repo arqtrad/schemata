@@ -1,25 +1,15 @@
+# Coordenador do projeto
+
 Pedro Palazzo:
-  name    : "Pedro Paulo Palazzo"
-  avatar  : "https://avatars3.githubusercontent.com/u/8295666"
-  bio     : 'Coordenador do projeto'
-  location: "Universidade de Brasília"
-  email   : "palazzo@unb.br"
-  uri     : "https://palazzo.pt"
-  orcid   : "https://orcid.org/0000-0002-0187-774X"
-  lattes  : "http://lattes.cnpq.br/5767592881382885"
+  name          : "Pedro Paulo Palazzo"
+  avatar        : "https://avatars3.githubusercontent.com/u/8295666"
+  bio           : 'Coordenador do projeto'
+  location      : "Universidade de Brasília"
+  email         : "palazzo@unb.br"
+  uri           : "https://palazzo.pt"
+  orcid         : "https://orcid.org/0000-0002-0187-774X"
+  lattes        : "http://lattes.cnpq.br/5767592881382885"
   links:
-    - label: "Website"
-      icon: "bi bi-globe"
-      #url: "https://palazzo.pt"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      #url: "https://twitter.com/p3palazzo"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "Instagram"
-      icon: "bi bi-instagram"
-      #url: "https://instagram.com/p3palazzo"
     - label: "Ciência Vitæ"
       icon: "ai ai-ciencia-vitae"
       url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"
@@ -33,28 +23,80 @@ Pedro Palazzo:
       icon: "bi bi-github"
       url: "https://github.com/p3palazzo"
 
-Eduarda Santana:
-  name      : "Eduarda de Sousa Viana de Santana"
-  givenName : "Eduarda de Sousa"
-  familyName: "Viana de Santana"
-  avatar    : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-eduarda-viana.jpg"
-  bio       : "Iniciação científica 2023–2024"
-  location  : "Universidade de Brasília"
-  orcid     : "https://orcid.org/0009-0006-7479-6365"
-  lattes    : "https://lattes.cnpq.br/9477579135674413"
+# Pesquisadores doutores
+
+Ana Paula Gurgel:
+  name    : "Ana Paula Campos Gurgel"
+  bio     : "Pesquisadora Doutora"
+  avatar  :
+  location: "Universidade de Brasília"
+  email   : "anapaulagurgel@unb.br"
+  orcid   :
+  lattes  :
+
+Cláudia Reis:
+  name    : "Cláudia dos Reis e Cunha"
+  bio     : "Coordenadora da equipe da UFU"
+  avatar  :
+  location: "Universidade Federal de Uberlândia"
+  email   : "claudiareis@ufu.br"
+  orcid   :
+  lattes  :
+
+Denise Geribello:
+  name    : "Denise Fernandes Geribello"
+  bio     : "Pesquisadora Doutora"
+  avatar  :
+  location: "Universidade Federal de Uberlândia"
+  email   : "denise.geribello@ufu.br"
+  orcid   :
+  lattes  :
+
+# Doutorandos
+
+Raquel Byrro:
+  name    : "Raquel Elizabeth Byrro Oliveira"
+  bio     : "Doutoranda"
+  avatar  :
+  location: "Universidade Federal de Uberlândia"
+  email   : "raquel.byrro@ufu.br"
+  orcid   :
+  lattes  :
+
+Tamires Cabral:
+  name    : "Tamires Oliveira Cabral"
+  bio     : "Doutoranda"
+  avatar  :
+  location: "Universidade de Brasília"
+  email   :
+  orcid   :
+  lattes  :
+
+# Mestres
+
+Camila Pimentel:
+  name    : "Camila de Queiroz Pimentel Lopes"
+  bio     : "Pesquisadora Mestre"
+  avatar  :
+  location: "Universidade Luterana do Brasil – Palmas"
+  email   : "camila.qpimentel@gmail.com"
+  orcid   :
+  lattes  :
 
 Eduarda Toscano:
-  name      : "Eduarda Toscano de Carvalho"
-  bio       : "Iniciação científica 2021–2022"
-  location  : "Universidade do Porto"
-  avatar    : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-eduarda-toscano.jpg"
-  lattes    : "http://lattes.cnpq.br/7412720893793734"
-  orcid     : "https://orcid.org/0009-0001-1800-4830"
+  name    : "Eduarda Toscano de Carvalho"
+  bio     : "Iniciação científica 2021–2022"
+  location: "Universidade do Porto"
+  avatar  : "/media/avatar-eduarda-toscano.jpg"
+  orcid   : "https://orcid.org/0009-0001-1800-4830"
+  lattes  : "http://lattes.cnpq.br/7412720893793734"
+
+# Mestrandos
 
 Constanza Manzochi:
   name    : "Constanza Ceschin Manzochi"
   bio     : "Mestrado 2024–2025"
-  avatar  : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-constanza-manzochi.jpg"
+  avatar  : "/media/avatar-constanza-manzochi.jpg"
   location: "Universidade de Brasília"
   email   : "constanza.manzochi@aluno.unb.br"
   orcid: "https://orcid.org/0009-0007-0073-6658"
@@ -63,4 +105,58 @@ Constanza Manzochi:
   - label: "Instagram"
     icon : "bi bi-instagram"
     url  : "https://instagram.com/cons_marceneira"
+
+Regina Pacheco:
+  name   : "Regina Borges Pacheco"
+  bio     : "Mestrado"
+  avatar  :
+  location: "Universidade Federal de Uberlândia"
+  email   : "regina.pacheco@ufu.br"
+  orcid   :
+  lattes  :
+
+# Graduados
+
+Lucas Araújo:
+  name    : "Lucas Nunes Bastos de Araújo"
+  avatar  :
+  bio     : "Arquiteto e Urbanista"
+  location: "Astró Arquitetura, Jaraguá"
+  orcid   :
+  lattes  :
+
+# Alunos de graduação
+
+Eduarda Viana:
+  name          : "Eduarda de Sousa Viana de Santana"
+  givenName     : "Eduarda de Sousa"
+  familyName    : "Viana de Santana"
+  avatar        : "/media/avatar-eduarda-viana.jpg"
+  bio           : "Iniciação científica 2023–2024"
+  location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0006-7479-6365"
+  lattes: "https://lattes.cnpq.br/9477579135674413"
+
+Jean Adalto:
+  name          : "Jean Adalto Ferreira dos Santos"
+  givenName     : "Jean Adalto Ferreira"
+  additionalName: "dos"
+  familyName    : "Santos"
+  avatar        : "/media/avatar-jean-adalto.jpg"
+  bio           : "Iniciação científica 2023–2024"
+  location      : "Universidade de Brasília"
+  orcid: "https://orcid.org/0009-0005-8143-2079"
+  lattes: "http://lattes.cnpq.br/4906420903336595"
+
+Sara Guimarães de Oliveira:
+  name          : "Sara Guimarães de Oliveira"
+  givenName     : "Sara Guimarães"
+  additionalName: "de"
+  familyName    : "Oliveira"
+  avatar        : "/media/avatar-sara-oliveira.jpg"
+  bio           : "Iniciação científica 2023–2024"
+  location      : "Universidade de Brasília"
+  orcid         : "https://orcid.org/0009-0001-0286-1870"
+  lattes        : "http://lattes.cnpq.br/0122614630973026"
+
 
