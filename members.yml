@@ -1,6 +1,6 @@
 # Coordenador do projeto
 
-Pedro Palazzo:
+0000-0002-0187-774X:
   name    : "Pedro Paulo Palazzo"
   avatar  : "https://avatars3.githubusercontent.com/u/8295666"
   bio     : 'Coordenador do projeto'
@@ -83,7 +83,7 @@ Camila Pimentel:
   orcid   :
   lattes  :
 
-Eduarda Toscano:
+0009-0001-1800-4830:
   name    : "Eduarda Toscano de Carvalho"
   bio     : "Iniciação científica 2021–2022"
   location: "Universidade do Porto"
@@ -93,7 +93,7 @@ Eduarda Toscano:
 
 # Mestrandos
 
-Constanza Manzochi:
+0009-0007-0073-6658:
   name    : "Constanza Ceschin Manzochi"
   bio     : "Mestrado 2024–2025"
   avatar  : "/media/avatar-constanza-manzochi.jpg"
@@ -127,17 +127,18 @@ Lucas Araújo:
 
 # Alunos de graduação
 
-Eduarda Viana:
+0009-0006-7479-6365:
   name      : "Eduarda de Sousa Viana de Santana"
-  givenName : "Eduarda de Sousa"
-  familyName: "Viana de Santana"
+  givenName : "Eduarda de Sousa Viana"
+  additionalName: "de"
+  familyName: "Santana"
   avatar    : "/media/avatar-eduarda-viana.jpg"
   bio       : "Iniciação científica 2023–2024"
   location  : "Universidade de Brasília"
   orcid     : "https://orcid.org/0009-0006-7479-6365"
   lattes    : "https://lattes.cnpq.br/9477579135674413"
 
-Jean Adalto:
+0009-0005-8143-2079:
   name          : "Jean Adalto Ferreira dos Santos"
   givenName     : "Jean Adalto Ferreira"
   additionalName: "dos"
@@ -148,7 +149,7 @@ Jean Adalto:
   orcid         : "https://orcid.org/0009-0005-8143-2079"
   lattes        : "http://lattes.cnpq.br/4906420903336595"
 
-Sara Guimarães de Oliveira:
+0009-0001-0286-1870:
   name          : "Sara Guimarães de Oliveira"
   givenName     : "Sara Guimarães"
   additionalName: "de"
