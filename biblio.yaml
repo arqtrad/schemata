@@ -669,9 +669,7 @@ references:
   publisher: Blucher
   publisher-place: São Paulo
   source: Open WorldCat
-  title: >-
-    Ensaio sobre a casa brasileira do século <span
-    style="font-variant:all-small-caps" smallcaps="smallcaps">XIX</span>
+  title: Ensaio sobre a casa brasileira do século XIX
   type: book
 
 - id: araujo:1998universo
@@ -2572,9 +2570,8 @@ references:
   publisher-place: Natal
   source: repositorio.ufrn.br
   title: >-
-    A arquitetura tradicional de Acari no século <span
-    style="font-variant:all-small-caps" smallcaps="smallcaps">XIX</span>: estudo
-    comparativo entre a casa-grande de fazenda e a casa urbana
+    A arquitetura tradicional de Acari no século XIX: estudo comparativo entre a
+    casa-grande de fazenda e a casa urbana
   title-short: A arquitetura tradicional de Acari no século XIX
   type: thesis
   URL: https://repositorio.ufrn.br/handle/123456789/48279
@@ -3642,20 +3639,29 @@ references:
   volume: '11'
 
 - id: iphan:2010casas
-  author:
-    - literal: Iphan
+  accessed:
+    - year: 2024
+      month: 2
+      day: 10
   citation-key: iphan:2010casas
   collection-title: Imagens
+  editor:
+    - family: Galvão
+      given: Marco Antônio Pereira
+  event-place: Brasília
   ISBN: 978-85-7334-172-0
   issued:
     - year: 2010
       month: 10
       day: 20
   language: por
-  publisher: Iphan
+  number-of-pages: '96'
+  publisher: Instituto do Patrimônio Histórico e Artístico Nacional
+  publisher-place: Brasília
   source: Câmara Brasileira do Livro ISBN
-  title: Casas do Patrimônio
+  title: Casas do patrimônio
   type: book
+  URL: http://portal.iphan.gov.br/uploads/publicacao/ColImg7_CasasPatrimonio_m.pdf
 
 - id: iphan:2010dossie1
   abstract: >-
