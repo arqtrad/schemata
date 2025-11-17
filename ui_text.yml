@@ -54,6 +54,7 @@ en: &DEFAULT_EN
   redraw                     : "Redrafted by"
   scale_label                : "Escala"
   coming_soon                : "Coming soon"
+  tl_label                   : "Timeline"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -278,6 +279,7 @@ pt: &DEFAULT_PT
   redraw                     : "Redesenho por"
   scale_label                : "Escala"
   coming_soon                : "Breve"
+  tl_label                   : "Cronologia"
 pt-PT:
   <<: *DEFAULT_PT
 # Brazilian Portuguese
@@ -341,6 +343,7 @@ pt-BR:
   redraw                     : "Redesenho por"
   scale_label                : "Escala"
   coming_soon                : "Em breve"
+  tl_label                   : "Cronologia"
   type: # https://docs.citationstyles.org/en/stable/specification.html#appendix-iii-types
     article-journal          : "artigo em periódico"
     article-magazine         : "artigo em revista"
