@@ -1,14 +1,14 @@
 # Coordenador do projeto
 
 Pedro Palazzo:
-  name          : "Pedro Paulo Palazzo"
-  avatar        : "https://avatars3.githubusercontent.com/u/8295666"
-  bio           : 'Coordenador do projeto'
-  location      : "Universidade de Brasília"
-  email         : "palazzo@unb.br"
-  uri           : "https://palazzo.pt"
-  orcid         : "https://orcid.org/0000-0002-0187-774X"
-  lattes        : "http://lattes.cnpq.br/5767592881382885"
+  name    : "Pedro Paulo Palazzo"
+  avatar  : "https://avatars3.githubusercontent.com/u/8295666"
+  bio     : 'Coordenador do projeto'
+  location: "Universidade de Brasília"
+  email   : "palazzo@unb.br"
+  uri     : "https://palazzo.pt"
+  orcid   : "https://orcid.org/0000-0002-0187-774X"
+  lattes  : "http://lattes.cnpq.br/5767592881382885"
   links:
     - label: "Ciência Vitæ"
       icon: "ai ai-ciencia-vitae"
@@ -107,7 +107,7 @@ Constanza Manzochi:
     url  : "https://instagram.com/cons_marceneira"
 
 Regina Pacheco:
-  name   : "Regina Borges Pacheco"
+  name    : "Regina Borges Pacheco"
   bio     : "Mestrado"
   avatar  :
   location: "Universidade Federal de Uberlândia"
@@ -128,14 +128,14 @@ Lucas Araújo:
 # Alunos de graduação
 
 Eduarda Viana:
-  name          : "Eduarda de Sousa Viana de Santana"
-  givenName     : "Eduarda de Sousa"
-  familyName    : "Viana de Santana"
-  avatar        : "/media/avatar-eduarda-viana.jpg"
-  bio           : "Iniciação científica 2023–2024"
-  location      : "Universidade de Brasília"
-  orcid: "https://orcid.org/0009-0006-7479-6365"
-  lattes: "https://lattes.cnpq.br/9477579135674413"
+  name      : "Eduarda de Sousa Viana de Santana"
+  givenName : "Eduarda de Sousa"
+  familyName: "Viana de Santana"
+  avatar    : "/media/avatar-eduarda-viana.jpg"
+  bio       : "Iniciação científica 2023–2024"
+  location  : "Universidade de Brasília"
+  orcid     : "https://orcid.org/0009-0006-7479-6365"
+  lattes    : "https://lattes.cnpq.br/9477579135674413"
 
 Jean Adalto:
   name          : "Jean Adalto Ferreira dos Santos"
@@ -145,8 +145,8 @@ Jean Adalto:
   avatar        : "/media/avatar-jean-adalto.jpg"
   bio           : "Iniciação científica 2023–2024"
   location      : "Universidade de Brasília"
-  orcid: "https://orcid.org/0009-0005-8143-2079"
-  lattes: "http://lattes.cnpq.br/4906420903336595"
+  orcid         : "https://orcid.org/0009-0005-8143-2079"
+  lattes        : "http://lattes.cnpq.br/4906420903336595"
 
 Sara Guimarães de Oliveira:
   name          : "Sara Guimarães de Oliveira"
