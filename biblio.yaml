@@ -2287,6 +2287,46 @@ references:
   title-short: A casa corrente na Baixa de Coimbra
   type: thesis
 
+- id: cunha:2024moderna1
+  abstract: >-
+    Anais do XV Seminário Docomomo Brasil: Arquitetura e urbanismo e a
+    reconstrução  do Estado e da sociedade. (978-65-272-0196-0) - Moderna E
+    Popular: Uma Tipologia Arquitetônica Invisibilizada Nas Políticas
+    Preservacionistas De Uberlândia/Mg
+  accessed:
+    - year: 2025
+      month: 1
+      day: 29
+  author:
+    - family: Cunha
+      given: Cláudia dos Reis
+      dropping-particle: e
+    - family: Geribello
+      given: Denise
+    - family: Laurentiz
+      given: Luiz Carlos
+      dropping-particle: de
+  citation-key: cunha:2024moderna1
+  container-title: Arquitetura e urbanismo e a reconstrução do Estado e da sociedade
+  event-place: São Carlos
+  event-title: XV Seminário Docomomo Brasil
+  ISBN: 978-65-272-0196-0
+  issued:
+    - year: 2024
+      month: 3
+      day: 27
+  language: por
+  publisher-place: São Carlos
+  source: www.even3.com.br
+  title: >-
+    Moderna e popular: uma tipologia arquitetônica invisibilizada nas políticas
+    preservacionistas de Uberlândia
+  title-short: Moderna e popular
+  type: paper-conference
+  URL: >-
+    https://www.even3.com.br/anais/xv-seminario-docomomo-brasil-2023/658066-moderna-e-popular--uma-tipologia-arquitetonica-invisibilizada-nas-politicas-preservacionistas-de-uberlandiamg
+  volume: '1'
+
 - id: czajkowski:2000guia
   citation-key: czajkowski:2000guia
   editor:
@@ -5316,6 +5356,55 @@ references:
   title: 'A casa corrente de 40 palmos (± 2): um tipo português da idade liberal'
   title-short: A casa corrente de 40 palmos
   type: chapter
+
+- id: palazzo:2025repensar22
+  abstract: >-
+    Este artigo propõe um conceito de arquitetura tradicional luso-brasileira
+    com base na caracterização da construção vernacular e no questionamento à
+    cronologia canônica baseada na história político-econômica e dos estilos
+    artísticos. No centro da problemática aqui levantada está o diálogo entre os
+    saberes vernaculares e a atuação profissional erudita, numa temporalidade
+    diferente daquela marcada pelos monumentos que sinalizavam a identidade
+    nacional na historiografia dos séculos XIX e XX. Em oposição à periodização
+    convencional, a história das técnicas e das regulações edilícias permite
+    situar o recorte de meados do século XVIII ao início do XX como época de
+    consolidação de saberes tradicionais partilhados entre as esferas vernacular
+    e erudita. Quatro elementos principais subsidiam essa proposta: a inovação
+    nas regulações edilícias urbanas; a difusão do módulo alentejano de testadas
+    com 40 palmos para o urbanismo Iluminista e além; a revisão crítica do
+    conhecimento histórico-arqueológico acerca da cronologia dos sistemas
+    construtivos conhecidos como “frontais”; e a consolidação de uma tipologia
+    doméstica unificada entre o meio rural e o urbano. Esse conceito de tradição
+    não é totalmente congruente com aquele dos movimentos tradicionalistas do
+    passado ou do presente, embora ofereça um subsídio para se discutir a
+    relevância tanto do recorte cronológico como ferramenta analítica, quanto da
+    tradição como instrumento operativo da arquitetura.
+  accessed:
+    - year: 2025
+      month: 2
+      day: 6
+  author:
+    - family: Palazzo
+      given: Pedro Paulo
+  citation-key: palazzo:2025repensar22
+  container-title: Oculum Ensaios
+  container-title-short: Oculum Ensaios
+  DOI: 10.24220/2318-0919v22e2025a10654
+  ISSN: 2318-0919
+  issued:
+    - year: 2025
+      month: 2
+      day: 6
+  language: por
+  page: 1-19
+  source: DOI.org (Crossref)
+  title: >-
+    Repensar a periodização da construção vernacular luso-brasileira: ou, como a
+    nossa arquitetura tradicional é mais recente do que parece
+  title-short: Repensar a periodização da construção vernacular luso-brasileira
+  type: article-journal
+  URL: https://periodicos.puc-campinas.edu.br/oculum/article/view/10654
+  volume: '22'
 
 - id: panerai:2006analise
   author:
