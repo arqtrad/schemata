@@ -25,63 +25,63 @@
 
 # Pesquisadores doutores
 
-Ana Paula Gurgel:
+0000-0002-0189-2958:
   name    : "Ana Paula Campos Gurgel"
   bio     : "Pesquisadora Doutora"
-  avatar  : "https://avatars.githubusercontent.com/u/107277559?s=200&v=4"
+  avatar  : "/media/avatar-ana-paula-gurgel.jpg"
   location: "Universidade de Brasília"
   email   : "anapaulagurgel@unb.br"
-  orcid   :
-  lattes  :
+  orcid   : "0000-0002-0189-2958"
+  lattes  : "http://lattes.cnpq.br/1436971182834432"
 
-Cláudia Reis:
+0000-0003-2819-2852:
   name    : "Cláudia dos Reis e Cunha"
   bio     : "Coordenadora da equipe da UFU"
   avatar  : "https://avatars.githubusercontent.com/u/107277559?s=200&v=4"
   location: "Universidade Federal de Uberlândia"
   email   : "claudiareis@ufu.br"
-  orcid   :
-  lattes  :
+  orcid   : "0000-0003-2819-2852"
+  lattes  : "http://lattes.cnpq.br/4999861455665373"
 
-Denise Geribello:
+0000-0003-4588-4543:
   name    : "Denise Fernandes Geribello"
   bio     : "Pesquisadora Doutora"
-  avatar  : "https://avatars.githubusercontent.com/u/107277559?s=200&v=4"
+  avatar  : "https://i1.rgstatic.net/ii/profile.image/736129447886848-1552518345097_Q128/Denise-Geribello.jpg"
   location: "Universidade Federal de Uberlândia"
   email   : "denise.geribello@ufu.br"
-  orcid   :
-  lattes  :
+  orcid   : "0000-0003-4588-4543"
+  lattes  : "http://lattes.cnpq.br/2344660444258617"
+
+0000-0002-6415-9905:
+  name    : "Tamires Oliveira Cabral"
+  bio     : "Pesquisadora Doutora"
+  avatar  : "/media/avatar-tamires-cabral.jpg"
+  location: "Universidade Regional do Cariri"
+  email   : "tamires.cabral@urca.br"
+  orcid   : "0000-0002-6415-9905"
+  lattes  : "http://lattes.cnpq.br/7131306118462241"
 
 # Doutorandos
 
-Raquel Byrro:
+0000-0002-3237-2306:
   name    : "Raquel Elizabeth Byrro Oliveira"
   bio     : "Doutoranda"
-  avatar  : "https://avatars.githubusercontent.com/u/107277559?s=200&v=4"
+  avatar  : "/media/avatar-raquel-byrro.jpg"
   location: "Universidade Federal de Uberlândia"
   email   : "raquel.byrro@ufu.br"
-  orcid   :
-  lattes  :
-
-Tamires Cabral:
-  name    : "Tamires Oliveira Cabral"
-  bio     : "Doutoranda"
-  avatar  : "https://avatars.githubusercontent.com/u/107277559?s=200&v=4"
-  location: "Universidade de Brasília"
-  email   :
-  orcid   :
-  lattes  :
+  orcid   : "0000-0002-3237-2306"
+  lattes  : "http://lattes.cnpq.br/1773014410420392"
 
 # Mestres
 
-Camila Pimentel:
+0000-0003-3446-3321:
   name    : "Camila de Queiroz Pimentel Lopes"
   bio     : "Pesquisadora Mestre"
-  avatar  : "https://estrategias-construcao.tradicional.arq.br/assets/media/avatar-camila-pimentel.jpg"
+  avatar  : "/media/avatar-camila-pimentel.jpg"
   location: "Universidade Luterana do Brasil – Palmas"
   email   : "camila.qpimentel@gmail.com"
-  orcid   :
-  lattes  :
+  orcid   : "0000-0003-3446-3321"
+  lattes  : "http://lattes.cnpq.br/3613601942031627"
 
 0009-0001-1800-4830:
   name    : "Eduarda Toscano de Carvalho"
